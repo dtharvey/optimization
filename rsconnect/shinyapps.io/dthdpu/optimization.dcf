@@ -1,0 +1,13 @@
+name: optimization
+title: optimization
+username: dthdpu
+account: dthdpu
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 12631774
+bundleId: 9070977
+url: https://dthdpu.shinyapps.io/optimization/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE
+ignoredFiles: fixed_simplex_test.R|fixed_simplex.R|temp-data/abs_values.csv|temp-data/optdata.csv|variable_simplex_test.R|variable_trial2.R|temp-files

@@ -1,0 +1,15 @@
+---
+output: html_fragment
+---
+
+<!-- place activity 1 here -->
+
+In a sequential optimization, we begin with a single set of factor levels and measure the response as we change the level of one factor while holding constant the level of the other factor. When the response no longer improves, we switch, holding the first factor constant and monitoring the response as we change the second factor's level. We continue this pattern until a change in either factor's level does not increase the response.
+
+Use the controls on the upper right to explore the sequential optimization for four two-factor response surfaces. The upper set of sliders gives the initial levels for factor A and for factor B. The two sets of radio buttons provide access to four ways to visualize the optimization's path, which begins with the large filled circle and extends in a series of steps shown by line segments and small open circles. The lower set of sliders rotates and tilts the 3D plots. In all cases, factor A is optimized first. The step-size for each factor is limited to values of  $0, \pm 1$.
+
+**Exercise 1**. Leave the default conditions in place: example 1; initial factor levels of (A,B) = (0,0); and a display that shows the path only in 2D. Record the position of the optimum response. Set the display to path only in 3D and compare the 2D and 3D views to each other. What additional information is available from the 3D view? Change the initial factor levels to (10,0), (0,10), (10,10), and (5,5). Is the algorithm's optimum response sensitive to the choice of initial factor levels? You may wish to explore a few additional initial factor levels. Repeat for the other response surfaces
+
+**Exercise 2**. Look over your data from the previous exercise and describe the shape of the four response surfaces based on the paths taken during the optimization. When you are done, set the display to path & surface in 2D, which overlays the optimization pathway on a 2D contour plot of the response surface. Is this display consistent with your prediction of the response surface's shape? Set the display to path & surface in 3D, which overlays the optimization pathway on a 3D surface plot. Is this display consistent with your prediction of the response surface's shape? What do your results suggest about the effectiveness of a sequential optimization?
+
+**Exercise 3**. Using the first example, set the initial factor levels to (0,0) and count the number of steps it takes to reach the optimum response, and the number of times the algorithm switches between the two factors. Repeat for the other three examples. What do your results suggest about the efficiency of a sequential optimization?

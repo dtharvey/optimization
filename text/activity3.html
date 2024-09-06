@@ -1,0 +1,39 @@
+
+
+
+<!-- place activity 3 here -->
+<p>The algorithm for a sequential optimization compares responses in
+four directions, and the algorithm for a steepest ascent optimization
+compares responses in eight directions. A more efficient algorithm
+allows for movement in more directions.</p>
+<p>One example of a more efficient algorithm measures the response for
+three sets of factor levels; these points form the vertices of a
+triangle and are called a simplex. The figure (included with the
+controls on the upper right) shows the initial simplex in black with the
+vertices ranked as the best (B), the next best (NB), and the worst (W)
+response. Vertex W is replaced with a new vertex, R, by reflecting it
+through the line segment between B and NB. Boundary conditions ensure
+that the optimization moves in the direction of an increasing response
+that remains within the allowed range of factor levels. The controls on
+the upper right allow you to define the simplex’s initial position
+(factor levels A and B for the vertex given by the blue dot), the
+simplex’s orientation (the number for one of the six triangles), and the
+size of the simplex’s sides.</p>
+<p><strong>Exercise 1</strong>. A simplex is the simplest object we can
+draw in <em>N</em>-dimensional space where <em>N</em> is the number of
+factors. The simplest figure we can draw in two-dimensions is a
+triangle. What makes a triangular-shaped simplex more efficient than a
+sequential or a steepest ascent optimization?</p>
+<p><strong>Exercise 2</strong>. Leave the default conditions in place:
+example 1; initial factor levels of (2,2); an initial simplex
+orientation of 4; and a step-size of 1. Beginning with the initial
+simplex (outlined by the filled circles), identify the vertex that is
+rejected and the new vertex that replaces it. Repeat for the remaining
+simplexes. How many steps make up the optimization’s pathway?</p>
+<p><strong>Exercise 3</strong>. Explore the utility of a fixed-size
+simplex for optimizing each of the four response surfaces. How effective
+is the simplex optimization in locating their maximum responses? Does
+the initial orientation and position of the simplex affect the
+algorithm’s effectiveness or its efficiency? Does the size of the
+initial simplex affect the algorithm’s effectiveness or its
+efficiency?</p>

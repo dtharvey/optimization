@@ -1,0 +1,85 @@
+
+
+
+<!-- place wrapping up here -->
+<div id="response-surfaces-used-in-this-module" class="section level4">
+<h4>Response Surfaces Used in this Module</h4>
+<p>The figures to the right show the four response surfaces used in this
+module where the factor levels for <em>A</em> and <em>B</em> are
+restricted to integer values between 0 and 10.</p>
+<p><strong><em>example 1 (upper left)</em></strong>: The equation for
+this response surface is a second-order polynomial in <em>A</em> and in
+<em>B</em> without an interaction between the two factors.</p>
+<p><span class="math display">\[1.68 + 0.24 \times A + 0.56 \times B -
+0.04 \times A^2 - 0.04 \times B^2\]</span></p>
+<p>When the <span class="math inline">\(A^2\)</span> and the <span class="math inline">\(B^2\)</span> terms are both negative and similar
+in value, as they are here, the resulting response surface has a
+dome-like shape. The response surface’s maximum response is at
+(3,7).</p>
+<p><strong><em>example 2 (upper right)</em></strong>: The equation for
+this response surface is a first-order polynomial in <em>A</em> with an
+interaction between <em>A</em> and <em>B</em>.</p>
+<p><span class="math display">\[4.0 - 0.4 \times A + 0.08 \times A
+\times B\]</span></p>
+<p>Note that when factor level for <em>A</em> is zero, the response is
+held constant at 4 for all values of <em>B</em>; this is because
+<em>B</em> only appears in the equation’s final interaction term. The
+response surface’s maximum response is at (10,10).</p>
+<p><strong><em>example 3 (lower left)</em></strong>: The equation for
+this response surface is a second-order polynomial in <em>A</em> and in
+<em>B</em> with an interaction between the two factors.</p>
+<p><span class="math display">\[3.264 + 1.537 \times A + 0.5664 \times B
+- 0.1505 \times A^2 - 0.02734 \times B^2 - 0.05785 \times A \times
+B\]</span></p>
+<p>When the <span class="math inline">\(A^2\)</span> and the <span class="math inline">\(B^2\)</span> terms are both negative, as is the
+case here, but not close in value to each other, the resulting response
+surface has a ridge-like shape. Although the response surface’s maximum
+response is at (3.91,6.22), the restriction that all values of
+<em>A</em> and <em>B</em> are integers means it appears at (4,6).</p>
+<p><strong><em>example 4 (lower right)</em></strong>: The equation for
+this response surface is a second-order polynomial in <em>A</em> and in
+<em>B</em> without an interaction between the two factors.</p>
+<p><span class="math display">\[4 + 0.8 \times A - 0.7 \times B - 0.09
+\times A^2 + 0.08 \times B^2\]</span></p>
+<p>When one of second-order terms (<span class="math inline">\(A^2\)</span> and <span class="math inline">\(B^2\)</span>) is negative and one is positive, as
+is the case here, and when they are similar in magnitude, the resulting
+response surface has a saddle-like shape. Although the response
+surface’s maximum response is at (4.38,0), the restriction that all
+values of <em>A</em> and <em>B</em> are integers means it appears at
+(4,0). Note that there also is a local optimum at (4,10).</p>
+<p>You can explore the relationship between the signs and relative
+magnitudes of <em>A</em> and <em>B</em> and the shape of a second-order
+polynomial equation using the module <em>AC 3.0: Introduction to
+Response Surfaces</em>.</p>
+</div>
+<div id="rotating-surface-plots" class="section level4">
+<h4>Rotating Surface Plots</h4>
+<p>There are a variety of functions in <code>R</code> to display data in
+three dimensions, such as the <code>persp</code> function used in this
+module. Such functions use two angles—theta and phi—to define the
+direction in which you view the data. These angles are typically defined
+only as the azimuthal angle and the colatitude angle. Unless you know
+how to navigate by the stars, you likely are not familiar with the
+practical meaning of these terms; thus, we describe them here as the
+angle by which we rotate the <em>xy</em>-plane around the
+<em>z</em>-axis (the azimuthal angle) and the angle by which we tilt the
+<em>z</em>-axis relative to the original <em>xy</em>-plane (the
+colatitude angle).</p>
+</div>
+<div id="additional-resources" class="section level4">
+<h4>Additional Resources</h4>
+<p>For an introduction to response surfaces and the mathematical
+modeling of response surfaces, see Chapter 14 in <a href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Analytical_Chemistry_2.1_(Harvey)/14%3A_Developing_a_Standard_Method/14.01%3A_Optimizing_the_Experimental_Procedure">Analytical
+Chemistry 2.1</a> and Chapter 9 in <a href="https://chem.libretexts.org/Bookshelves/Analytical_Chemistry/Chemometrics_Using_R_(Harvey)/09%3A_Gathering_Data">Chemometics
+Using R</a>. Another useful text is S. N. Deming and S. L. Morgan,
+<em>Experimental Design: A Chemometric Approach</em>, Elsevier:
+Amsterdam, 1987.</p>
+<p>The description of the spot test for vanadium, included in the
+module’s introduction, is based on a procedure outlined in <em>Vogel’s
+Textbook of Quantitative Inorganic Analysis</em>, Longman: London,
+<strong>1978</strong>, p. 752, and the article <a href="https://doi.org/10.1021/ed056p307">“Simplex Optimization of
+Chemical Systems,” Shavers, C. L.; Parsons, M. L.; Deming, S. N. <em>J.
+Chem. Educ.</em> <strong>1979</strong>, <em>56</em>, 307–309</a>.</p>
+<p>Another browser-based application that explores the variable-sized
+simplex optimization is available <a href="http://195.134.76.37/applets/AppletSimplex/Appl_Simplex2.html">here</a>.</p>
+</div>

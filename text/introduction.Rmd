@@ -1,0 +1,13 @@
+---
+output: html_fragment
+---
+
+<!-- place introduction here -->
+
+In the presence of $\require{mhchem} \ce{H2O2}$ and $\ce{H2SO4}$, a solution of $\ce{VOSO4}$ forms a reddish brown color. The absorbance of the solution at 450 nm is a useful method for determining the concentration of vanadium in a sample. The absorbance also depends on the relative amounts of $\ce{H2O2}$ and $\ce{H2SO4}$ used: in particular, a large excess of $\ce{H2O2}$ decreases the absorbance as it changes from a reddish brown color to a yellowish color. To develop a standard method for vanadium we must determine the amount of $\ce{H2O2}$ and $\ce{H2SO4}$ that will maximize the absorbance at 450 nm. Using the terminology of chemometrics, we identify absorbance as the system’s response. Hydrogen peroxide and sulfuric acid are factors whose concentrations, or factor levels, determine the system’s response. A plot that shows how the response changes over a range of factor levels is called a response surface. 
+
+#### Finding the Optimum Response
+
+One way to find the optimum response is to use a searching algorithm. The figure on the right---which shows a portion of the South Dakota Badlands, a barren landscape that includes many narrow ridges formed through erosion---illustrates our challenge. Suppose you wish to reach the ridge's highest point. Because the path is not obvious, you might adopt the following simple rule: look around you and take one step in the direction that has the greatest change in elevation, and repeat this instruction until no further movement is possible. The route you follow is the result of this searching algorithm. Of course there are as many routes as there are starting points, three examples of which we see in the figure. Note that some routes do not reach the highest point, which we call the global optimum. Instead, many routes end at a local optimum from which further movement is impossible. A searching algorithm is evaluated by its effectiveness (Did it find the global optimum?) and by its efficiency (Did it find the global optimum quickly?). 
+
+In this module you will consider four searching algorithms: sequential optimization, steepest ascent optimization, fixed-size simplex optimization, and variable-sized simplex optimization. We will limit our treatment to two factors so we can display the searching algorithm's progress on a contour plot in two-dimensions or on a surface plot in three dimensions.

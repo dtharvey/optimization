@@ -1,0 +1,41 @@
+
+
+
+<!-- place activity 4 here -->
+<p>The efficiency and effectiveness of a fixed-size simplex optimization
+is limited by the size of the initial simplex. A small simplex is less
+efficient because it requires more experiments to reach the optimum
+response, and a large simplex is less effective when the size of the
+simplex prevents a vertex from aligning closely with the optimum
+response.</p>
+<p>In a variable-sized simplex optimization (see figure included with
+the controls on the upper right) we allow the size of the simplex to
+expand or contract in response to the relative change in the response.
+The figure shows the initial simplex in black with the vertices ranked
+as the best (B), the next best (NB), and the worst (W) response. Vertex
+W is replaced with a new vertex, R, by reflecting it through the line
+segment between B and NB. Depending on the response for R relative to B,
+NB, and W, the new vertex can be extended to E or contracted to CR or to
+CW.</p>
+<p><strong>Exercise 1</strong>. Leave the default conditions in place:
+example 1; initial factor levels of (1,1); an initial simplex
+orientation of 4; and 1 iteration. Using the slider for iterations, step
+through the optimization, identifying at each step the vertex that is
+rejected and the new vertex that replaces it. Can you identify the
+conditions that lead to expanding, retaining, or contracting the
+reflected vertex? How many iterations does it take to reach the optimum
+response? How does this compare to a fixed-size simplex
+optimization?</p>
+<p><strong>Exercise 2</strong>. Explore the utility of the
+variable-sized simplex optimization for optimizing the response surfaces
+in all four examples. How effective is the variable-sized simplex
+optimization in locating the maximum responses? Does the initial
+position and orientation of the simplex affect the algorithm’s
+effectiveness or efficiency?</p>
+<p><strong>Exercise 3</strong>. Pick one of the four response surfaces
+and complete the optimization using each of the four algorithms. Use the
+same initial factor levels of (2,2) in each case, and use a step-size of
+1 for the fixed-size simplex optimization to be compatible with the
+initial step-size of the other algorithms. Repeat using initial factor
+levels of (2,8), (8,2), and (8,8). Compare the algorithms in terms of
+the effectiveness and their efficiency.</p>
