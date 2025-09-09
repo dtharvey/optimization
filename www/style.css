@@ -1,7 +1,35 @@
-p, li {
-  font-size: 16px;
+html-fragment{
+  font-size: 14px;
+  font-family: Arial, sans-serif;
 }
 
 nav {
   font-weight: bold;
+}
+
+.scrollable-well{
+  height: 600px;
+  overflow-y: auto;
+  padding: 10px;
+}
+
+/* Shrink font sizes inside Shiny sliders */
+.irs,
+.irs-line,
+.irs-bar,
+.irs-from,
+.irs-to,
+.irs-single,
+.irs-grid-text,
+.irs-min,
+.irs-max,
+.irs-grid {
+  font-size: 11px !important;
+}
+
+/* Shrink font size of slider labels (titles) */
+div.form-group > label.control-label {
+  font-size: 14px;
+  font-weight: normal;
+  font-family: 'Arial', sans-serif;
 }
