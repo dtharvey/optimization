@@ -2,4 +2,4 @@ To run locally, install the packages shiny and shinythemes (if not already insta
 
 library(shiny)
 
-shiny::runGitHub("Spectrometer","dtharvey")
+shiny::runGitHub("optimization","dtharvey")
