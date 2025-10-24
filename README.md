@@ -1,5 +1,6 @@
-To run locally, install the packages shiny and shinythemes (if not already installed), and enter the following two lines into the console:
+This learning module introduces methods for finding the optimum response for a system with two factors. Four optimization algorithms are included: sequential optimization, steepest ascent optimization, fixed-size simplex optimization, and variable-sized simplex optimization.
 
-library(shiny)
+required packages: `shiny`, `shinythemes`, `plot3D`
 
-shiny::runGitHub("optimization","dtharvey")
+to run locally in a browser window enter `shiny::runGitHub("optimization","dtharvey", launch.browser = TRUE)` in the console
+
